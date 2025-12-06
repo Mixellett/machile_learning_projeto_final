@@ -1,7 +1,7 @@
 ## 🏗 Estrutura do Projeto
 
 ```
-meu_projeto/
+raiz/
 ├── app/
 │   ├── api.py/             # Script que implementa a API de previsão
 │   ├── main.py/            # Script que executa a API de previsão e retorna o se a avaliação é "Positivo" ou "Negativo"
@@ -33,6 +33,38 @@ meu_projeto/
 
 ## 🔧 Configuração e Instalação
 
+### Baixando dataset do Kaggle
+
+- Baixar manualmente o arquivo amazon_review_polarity_csv.tgz disponível no [Kaggle](https://www.kaggle.com/datasets/kritanjalijain/amazon-reviews/data)  
+
+
+### Executando os notebooks
+
+#### Crie e ative um ambiente virtual
+```base
+python -m venv .venv
+source .venv/bin/activate  # Linux/MacOS
+ou
+.venv\Scripts\activate  # Windows
+```
+  
+#### Execute o Jupyter Notebook
+
+```base
+jupyter notebook
+```
+- Carregar e executar o arquivo *data_processing.ipynb*  
+  
+
+#### Abra o Colab
+
+- Carregar o arquivo *training.ipynb*  
+- Adicionar  os arquivos *amazon_reviews_test_sample.parquet* e *amazon_reviews_train_sample.parquet*  
+- Executar o notebook  
+- Salvar mlruns.zip  
+- Criar uma pasta model na raiz do projeto com o modelo descompactado do mlruns.zip  
+
+
 ### Usando Docker
 
 ```bash
@@ -44,8 +76,6 @@ docker run -p 8000:8000 amazon-reviews-api
 ```
 
 ## 🚀 Executando o Serviço
-
-### Localmente
 
 ```bash
 # Execute o servidor
