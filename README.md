@@ -64,6 +64,7 @@ jupyter notebook
 - Salvar mlruns.zip  
 - Criar uma pasta model na raiz do projeto com o modelo descompactado do mlruns.zip  
 
+Para visualizar a minha execução, acessar este [link](https://colab.research.google.com/drive/1lqTk8ja9GS80yB-lNBAMBTzcG_jihj0g)
 
 ### Usando Docker
 
