@@ -31,6 +31,11 @@ raiz/
 
 ```
 
+## Vídeo explicativo
+
+- Disponível [aqui](https://drive.google.com/file/d/1FKT00w55OktQ1OVLxikVlJ7Ry-yUq9AA/view?usp=sharing)
+
+  
 ## 🔧 Configuração e Instalação
 
 ### Baixando dataset do Kaggle
